@@ -2,9 +2,11 @@
 
 # ckanext-datastore-profiler
 **What is this?**
+
 This is a public repo for logic and documentation for Toronto's Open Data Profiler
 
-**What is the Profiler**
+**What is the Profiler?**
+
 Eventually, it will
 1. Summarize each attribute in Toronto Open Data datastore resources
 2. Assign classifications to each attribute
@@ -14,14 +16,14 @@ Eventually, it will
 - Reach out to opendata@toronto.ca
 - Reach out on the Civic Tech Toronto Slack
 
-## Descriptive Statitics for Integers and Floats:
+## Descriptive Statistics for Integers and Floats:
 - mean
 - min
 - max
 - median
 - count of distinct values
 
-## Descriptive Statitics for Dates and Datetimes:
+## Descriptive Statistics for Dates and Datetimes:
 - earliest date
 - latest date
 - earliest time
@@ -31,7 +33,7 @@ Eventually, it will
 - count of distinct values for date year
 - count of distinct values for time
 
-## Descriptive Statitics for Strings:
+## Descriptive Statistics for Strings:
 - count of distinct values
 - count of distinct "words" (string separated by spaces, ignoring things like "this", "that", "a" etc
 - min and max string length
